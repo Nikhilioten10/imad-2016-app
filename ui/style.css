@@ -1,10 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
-    margin-left:100px;
-    margin-right: 100px;
-    margin-bottom: 75px;
+    margin: 75px;
 }
 
 .center {
