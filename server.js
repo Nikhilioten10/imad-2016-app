@@ -56,7 +56,7 @@ var htmlTemplate = `<html>
 </body>
 </html>`;
  
- return htmltemplate;
+ return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
@@ -73,7 +73,7 @@ app.get('/ui/articleStyle.css', function (req, res) {
 });
 
 app.get('/ui/article1.html', function (req, res) {
-  res.sendFile(createTemplate(articleOne));
+  res.send(createTemplate(articleOne));
 });
 
 
