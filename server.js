@@ -26,6 +26,16 @@ var articleOne = {
 	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
 	</p>`
 };
+
+var articleTwo = {
+    title: 'Article Two',
+    heading:'ARTICLE TWO', 
+    date: 'DATE : september 23, 2016.',
+    content: 
+    `<p>
+	Fire in the heart.Fire in the heart..Fire in the heart.Fire in the heart.
+	</p>`
+};
 function createTemplate(data)
 {
 var title = data.title;
@@ -78,7 +88,7 @@ app.get('/ui/article1.html', function (req, res) {
 
 
 app.get('/ui/article2.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
+  res.send(createTemplate(articleTwo));
 });
 
 
