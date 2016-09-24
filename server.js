@@ -35,7 +35,7 @@ var articles = {
     `<p>
 	Fire in the heart.Fire in the heart..Fire in the heart.Fire in the heart.
 	</p>`
-};};
+}};
 function createTemplate(data)
 {
 var title = data.title;
