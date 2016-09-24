@@ -1,9 +1,9 @@
 .container{
 	 max-width: 800px;
 	 margin : 0 auto;
-	 color: white;
+	 color: grey;
 	 
 	}
 	body{
-	 background: grey;
+	 background: white;
 	}
