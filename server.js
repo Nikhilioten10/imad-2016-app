@@ -83,12 +83,12 @@ app.get('/ui/articleStyle.css', function (req, res) {
 });
 
 app.get('/ui/article1.html', function (req, res) {
-  res.send(createTemplate(articleOne));
+  res.send(createTemplate(articles.articleOne));
 });
 
 
 app.get('/ui/article2.html', function (req, res) {
-  res.send(createTemplate(articleTwo));
+  res.send(createTemplate(articles.articleTwo));
 });
 
 
