@@ -92,8 +92,8 @@ app.get('/ui/article2.html', function (req, res) {
 });
 
 
-app.get('/ui/pp.jpe', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
+app.get('/ui/bBMGRPFn.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bBMGRPFn.jpg'));
 });
 
 
