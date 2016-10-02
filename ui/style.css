@@ -4,19 +4,8 @@ body {
     margin: 75px;
 }
 
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 200%;
-}
-
-
-
-.img-medium {
-    height: 200px;
-}
-.color{
-    color:lightblue;
+.container{
+    color: lightblue;
+    font-size: 100px;
+    
 }
