@@ -6,10 +6,10 @@ body {
 
 .container{
     color: lightblue;
-    font-size: 10px;
+    font-size: 30px;
     
 }
 .img-medium{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
 }
