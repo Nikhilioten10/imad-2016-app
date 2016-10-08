@@ -23,5 +23,6 @@ body {
 }
 
 .menu{
+    height: 50px;
     background:green;
 }
