@@ -18,9 +18,9 @@ body {
 }
 
 .menu{
-    height: 50px;
-    background:green;
+    height: 100px;
+    background:lightblue;
 }
 .links{
-     text-align:rightr;
+     text-align:right;
 }
