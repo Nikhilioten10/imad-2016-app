@@ -18,11 +18,9 @@ body {
 }
 
 .menu{
-    background:black;
-    color:white;
-}
-
-.menu{
     height: 50px;
     background:green;
+}
+.links{
+    text-align:center;
 }
