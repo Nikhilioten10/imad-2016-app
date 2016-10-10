@@ -21,10 +21,7 @@ body {
     height: 100px;
     background:lightblue;
 }
-.links{
-     text-align:right;
-}
 
-.myname{
+#name{
     color:white;
 }
