@@ -24,4 +24,6 @@ body {
 
 #name{
     color:white;
+    size: 20px;
+    font-family: Times New Roman;
 }
