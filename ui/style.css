@@ -7,7 +7,7 @@ body {
 .container{
     color: darkblue;
     font-size: 25px;
-    text-align: justify;
+    text-align: right;
 }
 .img-medium{
     height:150px;
