@@ -1,6 +1,6 @@
 body {
     font-family: Times New Roman;
-    background-color: #00ff9e;
+
     margin: 100px;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 #name{
-    color:white;
+    color:Black;
     font-size: 25px;
     font-family: Times New Roman;
 }
