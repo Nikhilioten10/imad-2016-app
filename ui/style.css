@@ -1,6 +1,5 @@
 body {
     font-family: Times New Roman;
-    background-image: url("ui/bg.JPG");
     margin: 100px;
 }
 
@@ -25,7 +24,7 @@ body {
 }
 
 #name{
-    color:Black;
-    font-size: 25px;
+    color:white;
+    font-size: 50px;
     font-family: Times New Roman;
 }
