@@ -1,12 +1,14 @@
 body {
     font-family: Times New Roman;
-
+    background-image: url("ui/bg.jpg");
     margin: 100px;
 }
 
 .container{
-    color: darkblue;
+    color: White;
     font-size: 25px;
+    font-family: serif;
+    font-style:oblique;
     text-align: justify
 }
 .img-medium{
