@@ -22,6 +22,8 @@ button.onclick =  function(){
     request.send(null);
  
 };
+
+
 var button2 = document.getElementById('a1');
 button2.onclick = function(){
     
@@ -35,7 +37,7 @@ button2.onclick = function(){
             {
                 var info = request.responseText;
                 var container = document.getElementById('main-text');
-                container.HTML = info.toString();
+                container.innerHTML = info;
             }
         }
         
