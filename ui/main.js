@@ -39,7 +39,7 @@ button2.onclick = function(){
             }
         }
         
-    }
+    };
     
  a1Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/article1.html",true);
  a1Request.send(null);
