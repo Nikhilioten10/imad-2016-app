@@ -33,7 +33,7 @@ button2.onclick = function(){
         {
             if(a1request.status == 200)
             {
-                var info = request.responseText;
+                var info = request.responseString;
                 var container = document.getElementById('main-text');
                 container.innerHTML = info;
             }
