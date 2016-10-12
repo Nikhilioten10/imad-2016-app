@@ -40,7 +40,6 @@ var heading = data.heading;
 var date = data.date;
 var content = data.content;
 var htmlTemplate = `
- <div id = "main-content" class = "container">
 	<div>
 	  <h3>
 	  ${heading}</h3>
@@ -50,8 +49,7 @@ var htmlTemplate = `
 	</div>
 	<div>
 	 ${content}
-	</div>
-</div>`;
+	</div>`;
  
  return htmlTemplate;
 }
@@ -83,10 +81,8 @@ app.get('/ui/articleStyle.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleStyle.css'));
 });
 
-var string = 'nikhil';
-
 app.get('/ui/article1.html', function (req, res) {
-  res.send(string);
+  res.send(craetTemplate(articles.articleOne));
 });
 
 
