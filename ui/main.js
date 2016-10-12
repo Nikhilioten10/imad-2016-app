@@ -22,7 +22,7 @@ button.onclick =  function(){
     request.send(null);
  
 };
-var button2 = document.GetElementById('a1');
+var button2 = document.getElementById('a1');
 button2.onclick = function(){
     
     var a1Request = new XMLHttpRequest();
