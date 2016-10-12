@@ -82,7 +82,7 @@ app.get('/ui/articleStyle.css', function (req, res) {
 });
 
 app.get('/ui/article1.html', function (req, res) {
-  res.send(JSON.stringify(createTemplate(articles.articleOne)));
+  res.send(createTemplate(articles.articleOne));
 });
 
 
