@@ -50,3 +50,29 @@ button2.onclick = function(){
     
 };
 
+var button3 = document.getElementById('a2');
+button3.onclick = function(){
+    
+    var a2Request = new XMLHttpRequest();
+    
+    a2Request.onreadystatechange = function(){
+        
+        if(a2Request.readyState == XMLHttpRequest.DONE)
+        {
+            if(a2Request.status == 200)
+            {
+                var info2 = a2Request.responseText;
+            
+                var container2 = document.getElementById('main-text');
+                container2.innerHTML = info2;
+            }
+        }
+        
+    };
+    
+ a2Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/article2.html",true);
+ a2Request.send(null);
+
+    
+};
+
