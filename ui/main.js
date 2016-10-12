@@ -22,3 +22,26 @@ button.onclick =  function(){
     request.send(null);
  
 };
+var button2 = document.GetElementById('a1');
+button2.onclick = function(){
+    
+    var a1Request = new XMLHttpRequest();
+    
+    a1Request.onreadystatechange = function(){
+        
+        if(a1Request.readyState == XMLHttpRequest.DONE)
+        {
+            if(a1request.status == 200)
+            {
+                var info = request.responseText;
+                var container = document.getElementById('main-text');
+                container.innerHTML = info;
+            }
+        }
+        
+    }
+    
+};
+
+ a1Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/article1.html",true);
+ a1Request.send(null);
