@@ -35,7 +35,7 @@ button2.onclick = function(){
             {
                 var info = request.responseText;
                 var container = document.getElementById('main-text');
-                container.innerHTML = info.toString();
+                container.HTML = info.toString();
             }
         }
         
