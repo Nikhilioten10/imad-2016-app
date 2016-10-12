@@ -98,7 +98,7 @@ sub_button.onclick = function(){
                 }
                 
                 var ul = document.getElementById('nameslist');
-                ul.innerHtml = list;
+                ul.innerHTML = list;
             
             }
         }
