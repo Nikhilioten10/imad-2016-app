@@ -80,7 +80,7 @@ button3.onclick = function(){
 var sub_button = document.getElementById('submit_btn');
 sub_button.onclick = function(){
     
-    var request = new XMLHttprequest();
+    var request = new XMLHttpRequest();
     
     request.onreadystatechange = function(){
         
