@@ -36,7 +36,7 @@ button2.onclick = function(){
             if(a1Request.status == 200)
             {
                 var info = request.responseText;
-                info = JSON.parse(info);
+            
                 var container = document.getElementById('main-text');
                 container.innerHTML = info;
             }
