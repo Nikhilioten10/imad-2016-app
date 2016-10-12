@@ -1,6 +1,7 @@
 body {
     font-family: Times New Roman;
-    margin: 100px;
+    margin-right: 100px;
+    margin-left:100px;
 }
 h3{
     background-color: lightblue;
