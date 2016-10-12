@@ -4,10 +4,16 @@ body {
     margin-left:100px;
 }
 h3{
-    background-color: #3f51b5;
+    background-color: white;
      color: white;
  
 }
+ 
+header{
+    
+    background-color: #3f51b5;
+}
+
 
 .container{
     color: grey;
