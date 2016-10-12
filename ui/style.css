@@ -2,6 +2,9 @@ body {
     font-family: Times New Roman;
     margin: 100px;
 }
+h2{
+    background-color: blue;
+}
 
 .container{
     color: grey;
