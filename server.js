@@ -83,8 +83,10 @@ app.get('/ui/articleStyle.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleStyle.css'));
 });
 
+var string = 'nikhil';
+
 app.get('/ui/article1.html', function (req, res) {
-  res.send(createTemplate(articles.articleOne));
+  res.send(string);
 });
 
 
