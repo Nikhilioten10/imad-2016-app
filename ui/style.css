@@ -6,7 +6,7 @@ body {
 h3{
     background-color: #3f51b5;
      color: white;
-     font-weight: bolder;
+ 
 }
 
 .container{
@@ -34,4 +34,5 @@ h3{
     color:lightblue;
     font-size: 25px;
     font-family: Times New Roman;
+    font-weight: bolder;
 }
