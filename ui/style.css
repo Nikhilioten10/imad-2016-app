@@ -4,7 +4,7 @@ body {
     margin-left:100px;
 }
 h3{
-    background-color: white;
+    background-color: #3f51b5 ;
      color: white;
  
 }
@@ -37,7 +37,7 @@ header{
 }
 
 #name{
-    color:#3f51b5;
+    color:white;
     font-size: 25px;
     font-family: Times New Roman;
     font-weight: bolder;
