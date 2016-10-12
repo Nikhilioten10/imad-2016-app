@@ -31,7 +31,7 @@ button2.onclick = function(){
         
         if(a1Request.readyState == XMLHttpRequest.DONE)
         {
-            if(a1request.status == 200)
+            if(a1Request.status == 200)
             {
                 var info = request.responseText;
                 var container = document.getElementById('main-text');
