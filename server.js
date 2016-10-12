@@ -85,6 +85,15 @@ app.get('/ui/article1.html', function (req, res) {
   res.send(createTemplate(articles.articleOne));
 });
 
+var names= [];
+app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
+  var name = req.query.name;
+  names.push(name);
+  
+  res.send(JSON.stringify(names));
+});
+
+
 
 app.get('/ui/article2.html', function (req, res) {
   res.send(createTemplate(articles.articleTwo));
