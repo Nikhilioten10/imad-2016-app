@@ -11,7 +11,7 @@ button.onclick =  function(){
         {
             if(request.status == 200)
             {
-                var counter = a1Request.responseText;
+                var counter = request.responseText;
                 var span = document.getElementById('count');
                 span.innerHTML = counter.toString();
             }
@@ -35,7 +35,7 @@ button2.onclick = function(){
         {
             if(a1Request.status == 200)
             {
-                var info = request.responseText;
+                var info = a1Request.responseText;
             
                 var container = document.getElementById('main-text');
                 container.innerHTML = info;
