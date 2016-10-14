@@ -44,7 +44,7 @@ button2.onclick = function(){
         
     };
     
- a1Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/article1.html",true);
+ a1Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/about",true);
  a1Request.send(null);
 
     
@@ -70,7 +70,7 @@ button3.onclick = function(){
         
     };
     
- a2Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/ui/article2.html",true);
+ a2Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/skills",true);
  a2Request.send(null);
 
     
