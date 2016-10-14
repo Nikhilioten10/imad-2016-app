@@ -64,19 +64,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/background-img.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'background-img.jpg'));
-});
-
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
-
-
-
-
 
 var names= [];
 app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
@@ -94,14 +85,22 @@ app.get('/:urlName', function (req, res) {
 });
 
 
-app.get('/bBMGRPFn.jpg', function (req, res) {
+app.get('/ui/bBMGRPFn.jpg', function (req, res) {
     var imageName = req.params.imageName;
-  res.sendFile(path.join(__dirname, 'bBMGRPFn.jpg'));
+  res.sendFile(path.join(__dirname,'ui', 'bBMGRPFn.jpg'));
 });
 
-//app.get('/ui/pp.jpe', function (req, res) {
-//  res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
-//});
+app.get('/ui/pp3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pp3.jpg'));
+});
+
+app.get('/ui/pp4.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pp4.jpg'));
+});
+
+app.get('/ui/pp.jpe', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
+});
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
