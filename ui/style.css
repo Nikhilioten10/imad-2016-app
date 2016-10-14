@@ -45,7 +45,9 @@ header{
  #myname{
      font-weight: bold;
      color: darkgrey;
+     font-variant:small-caps;
  }
+ 
 
 button{
 
