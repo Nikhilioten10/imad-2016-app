@@ -6,8 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 var Urls = {
  'about' : {
-    heading:'ARTICLE ONE', 
-    date: 'DATE : september 23, 2016.',
+    heading:'ABOUT ME', 
+    date: 'DATE OF BIRTH: May 23, 1997.',
     content: 
     `<p>
 	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
@@ -27,7 +27,7 @@ var Urls = {
 },
 
  'skills': {
-    heading:'ARTICLE TWO', 
+    heading:'MY SKILLS', 
     date: 'DATE : september 23, 2016.',
     content: 
     `<p>
