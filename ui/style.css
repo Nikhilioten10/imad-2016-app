@@ -11,7 +11,7 @@ h3{
  
 header{
     
-    background-color: #3f51b5;
+    background-color: #3f51b5; /*blue*/
 }
 
 
@@ -45,7 +45,7 @@ header{
 
 button{
 
-    background-color: #4CAF50; /* Green */
+    background-color: #3f51b5; /* blue */
     border: none;
     color: white;
     padding: 15px 32px;
