@@ -29,6 +29,11 @@ header{
 .img-medium{
     height:175px;
     width:175px;
+     display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 30%;
+    padding: 5px;
+    transition: 0.3s;
 }
 .footer{
     color:black;
@@ -74,11 +79,7 @@ button:hover{
 }
 #img{
     
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 30%;
-    padding: 5px;
-    transition: 0.3s;
+   
 }
 #img:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
