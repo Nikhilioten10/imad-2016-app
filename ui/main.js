@@ -99,6 +99,8 @@ sub_button.onclick = function(){
                 
                 var ul = document.getElementById('nameslist');
                 ul.innerHTML = list;
+                var ib = document.getElementById('comments');
+                ib.value ="";
             
             }
         }
@@ -109,6 +111,5 @@ sub_button.onclick = function(){
     var name = nameInput.value;
     request.open('GET',"http://nikhilioten10.imad.hasura-app.io/submit-name?name="+name,true);
     request.send(null);
-    nameInput.innerHTML = "";
     
 };
