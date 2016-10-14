@@ -90,8 +90,8 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 
 
-app.get('/about', function (req, res) {
-  res.send(createTemplate(Urls.about));
+app.get('/:urlName', function (req, res) {
+  res.send(createTemplate(Urls.urlName));
 });
 
 
