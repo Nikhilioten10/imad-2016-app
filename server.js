@@ -4,8 +4,8 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articles = {
- articleOne : {
+var Urls = {
+ about : {
     heading:'ARTICLE ONE', 
     date: 'DATE : september 23, 2016.',
     content: 
@@ -26,7 +26,7 @@ var articles = {
 	</p>`
 },
 
- articleTwo: {
+ skills: {
     heading:'ARTICLE TWO', 
     date: 'DATE : september 23, 2016.',
     content: 
@@ -73,17 +73,12 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/n.ico', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'n,ico'));
-});
+
 
 app.get('/ui/articleStyle.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleStyle.css'));
 });
 
-app.get('/ui/article1.html', function (req, res) {
-  res.send(createTemplate(articles.articleOne));
-});
 
 var names= [];
 app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
@@ -95,8 +90,8 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 
 
-app.get('/ui/article2.html', function (req, res) {
-  res.send(createTemplate(articles.articleTwo));
+app.get('/:urlName', function (req, res) {
+  res.send(createTemplate(Urls.urlName));
 });
 
 
