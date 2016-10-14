@@ -90,12 +90,12 @@ app.get('/ui/bBMGRPFn.jpg', function (req, res) {
   res.sendFile(path.join(__dirname,'ui', 'bBMGRPFn.jpg'));
 });
 
-app.get('/ui/pp3.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'pp3.JPG'));
+app.get('/ui/pp5.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pp3.jpg'));
 });
 
-app.get('/ui/pp4.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'pp4.JPG'));
+app.get('/ui/pp6.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pp6.jpg'));
 });
 
 app.get('/ui/pp.jpe', function (req, res) {
