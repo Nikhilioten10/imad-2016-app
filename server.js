@@ -75,9 +75,7 @@ app.get('/ui/style.css', function (req, res) {
 
 
 
-app.get('/ui/articleStyle.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'articleStyle.css'));
-});
+
 
 
 var names= [];
@@ -96,9 +94,9 @@ app.get('/:urlName', function (req, res) {
 });
 
 
-app.get('/ui/:imageName', function (req, res) {
+app.get('/bBMGRPFn.jpg', function (req, res) {
     var imageName = req.params.imageName;
-  res.sendFile(path.join(__dirname, 'ui', 'imageName'));
+  res.sendFile(path.join(__dirname, 'bBMGRPFn.jpg'));
 });
 
 //app.get('/ui/pp.jpe', function (req, res) {
