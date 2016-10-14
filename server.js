@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var Urls = {
- about : {
+ 'about' : {
     heading:'ARTICLE ONE', 
     date: 'DATE : september 23, 2016.',
     content: 
@@ -26,7 +26,7 @@ var Urls = {
 	</p>`
 },
 
- skills: {
+ 'skills': {
     heading:'ARTICLE TWO', 
     date: 'DATE : september 23, 2016.',
     content: 
@@ -91,7 +91,7 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 
 app.get('/:urlName', function (req, res) {
-  res.send(createTemplate(Urls.urlName));
+  res.send(createTemplate(Urls[urlName]));
 });
 
 
