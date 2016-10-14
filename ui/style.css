@@ -27,8 +27,7 @@ header{
 }
 
 .img-medium{
-    height:175px;
-    width:175px;
+
      display: inline-block;
     border: 1px solid #ddd;
     border-radius: 30%;
