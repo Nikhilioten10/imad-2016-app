@@ -97,7 +97,7 @@ app.get('/:urlName', function (req, res) {
 
 
 app.get('/ui/:imageName', function (req, res) {
-    var imageName = req.params.imageName
+    var imageName = req.params.imageName;
   res.sendFile(path.join(__dirname, 'ui', 'imageName'));
 });
 
