@@ -96,13 +96,14 @@ app.get('/:urlName', function (req, res) {
 });
 
 
-app.get('/ui/bBMGRPFn.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bBMGRPFn.jpg'));
+app.get('/ui/:imageName', function (req, res) {
+    var imageName = req.params.imageName
+  res.sendFile(path.join(__dirname, 'ui', 'imageName'));
 });
 
-app.get('/ui/pp.jpe', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
-});
+//app.get('/ui/pp.jpe', function (req, res) {
+//  res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
+//});
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
