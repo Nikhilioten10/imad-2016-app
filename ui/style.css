@@ -11,7 +11,7 @@ h3{
  
 header{
     
-    background-color: /*#008CBA*/ white; /*blue*/
+    background-color:#008CBA; /*blue*/
 }
 .links{
     
@@ -40,7 +40,7 @@ header{
 }
 
 #name{
-    color:#008CBA;
+    color:white;
     font-size: 25px;
     font-family: Times New Roman;
     font-weight: bolder;
@@ -56,9 +56,9 @@ header{
 
 button{
 
-    background-color: #008CBA; /* blue */
+    background-color: white; /* blue */
     border: none;
-    color: white;
+    color:  #008CBA;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
