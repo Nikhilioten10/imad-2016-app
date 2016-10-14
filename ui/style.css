@@ -73,6 +73,11 @@ button{
     font-size: 16px;
 
 }
+button:visited
+{
+     background-color: lightblue;
+     color:white;
+}
 
 button:hover{
      background-color: lightblue;
