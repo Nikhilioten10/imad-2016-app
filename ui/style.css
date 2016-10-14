@@ -73,7 +73,7 @@ button{
     font-size: 16px;
 
 }
-button:visited
+button:focus
 {
      background-color: lightblue;
      color:white;
