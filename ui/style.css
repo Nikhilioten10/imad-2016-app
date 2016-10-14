@@ -42,6 +42,10 @@ header{
     font-family: Times New Roman;
     font-weight: bolder;
 }
+ #myname{
+     font-weight: bold;
+     color: darkgrey;
+ }
 
 button{
 
