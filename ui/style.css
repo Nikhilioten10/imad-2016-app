@@ -2,6 +2,8 @@ body {
     font-family: Times New Roman;
     margin-right: 50px;
     margin-left: 50px;
+    background:url(/ui/bg.jpg);
+    background-repeat: no-repeat;
 }
 h3{
     background-color: #008CBA ;
