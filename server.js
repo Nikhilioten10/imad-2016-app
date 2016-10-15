@@ -168,6 +168,11 @@ app.get('/ui/pp.jpe', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pp.jpe'));
 });
 
+app.get('/ui/bg.jpg', function (req, res) {
+    var imageName = req.params.imageName;
+  res.sendFile(path.join(__dirname,'ui', 'bg.jpg'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
