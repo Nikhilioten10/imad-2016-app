@@ -10,30 +10,95 @@ var Urls = {
     date: 'DATE OF BIRTH: May 23, 1997.',
     content: 
     `<p>
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
+        In this Mordern world as new technology influences human life for every 86400 seconds, I am very much adaptive
+        such technologies ,learning them as quickly as possible to be along with technology in the field of
+        information technology which results me to become a quality professional.
+
 	</p>
 	<p>
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	</p>
-	<p>
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
-	Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.Fire in the heart.
+	   The Technologies that i am interested are:
+	   <ul>
+	    <li>Big Data Analytics</li>
+	    <li>Internet of Things</li>
+	    <li>MEAN Stack we development</li>
+	    <li>Complete java</li>
+	    <li>Oracle database management<li>
+	    <li>Data Sceince<li>
+	   <ul>
+   </p>
+   <p>
+   I am the member of professional organisations like IEEE, CSI where i spent my time in building good netorking with researchers, working professionals, tech enthusiasts for prosperity in my career.
+   </p>`
+},
+
+ 
+ 'skills': {
+    heading:'MY SKILLS', 
+    date: 'DATE : October 15, 2016.',
+    content: 
+    `<p>
+      <h4>Tehcnical SKILLS</h4>
+	   <ui>
+	   <li>C programming</li>
+	   <li>Core Java</li>
+	   <li>MySql</li>
+	   <li>Web technologies: Html5,Css3,JavaScript,Jquery,Angular Js,NodeJs</li>
+	   <li>Android Development</li>
+	   <li>Python</li>
+	   </ul>
+	   
+	   <h4>Professional Skiils</h4>
+	   <ul>
+	   <li>Being able to Communicate Well.</li>
+	   <li>Being able to Volunteer for Organisations likw IEEE, CSI.</li>
+	   <li>Being adaptive in nature.</li>
+	   <li>Being able to mingle with new people as quivkly.</li>
+	   <li>I am a Learner, Motivator, Orator, Dominator and a Special entity in my working environment.</li>
+	   </ul>
 	</p>`
 },
 
- 'skills': {
-    heading:'MY SKILLS', 
-    date: 'DATE : september 23, 2016.',
-    content: 
-    `<p>
-	Fire in the heart.Fire in the heart..Fire in the heart.Fire in the heart.
-	</p>`
-}};
+'Internships':{
+
+ heading: 'MY INTERNSHIP EXPERIENCE',
+ date: '22 july 2016 - 30 july 2016',
+ content: `
+  <section>
+   <h4>IOT Internship</h4>
+   organisation: EXPERSHUB , Industrial skill development center.
+   venue: JSS Academy of Technical Education.
+   Place : Uttarahali,BANGALORE.
+   STate: Karnataka.
+  <article id="Experience">
+   My experience: <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
+     </p>
+     <p>
+        Here we were divited into twenty teams.My team name is 'IOTENS'.I was a team leader and a software engineer for
+        my team. We united as a team has done a project on Home Automation in IOT which is SMAGMON - Smart Garden Monitor
+     
+     </p>
+  </article>
+  
+  </section>`
+},
+
+'Contact': {
+    
+    heading: 'Contact and personal details',
+    date: 'October 15,2016',
+    content: `<p>Email:
+    <ul>
+    <li>Gmail:nikhilchanda2210tech@gmail.com </li>
+    <li>Hotmail: chanda.nikhilkumar@hotmail.com</li>
+    </ul>
+    Mobile: 8374249824, 8374079824.
+    Facebook : https://www.facebook.com/nikhil.chandha
+    linkedin: Public Profilehttps://in.linkedin.com/in/nikhil-chanda-656569107
+    Git Hub: https://github.com/Nikhilioten10
+    </p>`
+}
+    
+};
 function createTemplate(data)
 {
 var heading = data.heading;
