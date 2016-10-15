@@ -68,9 +68,10 @@ var Urls = {
    organisation: EXPERSHUB , Industrial skill development center.<br>
    venue: JSS Academy of Technical Education.<br>
    Place : Uttarahali,BANGALORE.<br>
-   State: Karnataka.<br><br>
+   State: Karnataka.<br>
   <article id="Experience">
-   <h4>My Experience:</h4> <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
+   <h4>My Experience:</h4> 
+   <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
      </p>
      <p>
         Here we were divited into twenty teams.My team name is 'IOTENS'.I was a team leader and a software engineer for
