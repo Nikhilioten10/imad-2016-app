@@ -91,4 +91,11 @@ button:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+#Experience{
+    font-weight: bold;
+     color: #385b5d;
+     font-variant:small-caps;
+     font-size:35px;
+}
+
 
