@@ -22,9 +22,9 @@ var Urls = {
 	    <li>Internet of Things</li>
 	    <li>MEAN Stack we development</li>
 	    <li>Complete java</li>
-	    <li>Oracle database management<li>
+	    <li>Oracle database management</li>
 	    <li>Data Sceince<li>
-	   <ul>
+	   </ul>
    </p>
    <p>
    I am the member of professional organisations like IEEE, CSI where i spent my time in building good netorking with researchers, working professionals, tech enthusiasts for prosperity in my career.
@@ -65,10 +65,10 @@ var Urls = {
  content: `
   <section>
    <h4>IOT Internship</h4>
-   organisation: EXPERSHUB , Industrial skill development center.
-   venue: JSS Academy of Technical Education.
-   Place : Uttarahali,BANGALORE.
-   STate: Karnataka.
+   organisation: EXPERSHUB , Industrial skill development center.<br>
+   venue: JSS Academy of Technical Education.<br>
+   Place : Uttarahali,BANGALORE.<br>
+   State: Karnataka.<br>
   <article id="Experience">
    My experience: <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
      </p>
@@ -90,11 +90,11 @@ var Urls = {
     <ul>
     <li>Gmail:nikhilchanda2210tech@gmail.com </li>
     <li>Hotmail: chanda.nikhilkumar@hotmail.com</li>
-    </ul>
-    Mobile: 8374249824, 8374079824.
-    Facebook : https://www.facebook.com/nikhil.chandha
-    linkedin: Public Profilehttps://in.linkedin.com/in/nikhil-chanda-656569107
-    Git Hub: https://github.com/Nikhilioten10
+    </ul><br>
+    Mobile: 8374249824, 8374079824.<br>
+    Facebook : https://www.facebook.com/nikhil.chandha<br>
+    linkedin: Public Profilehttps://in.linkedin.com/in/nikhil-chanda-656569107<br>
+    Git Hub: https://github.com/Nikhilioten10<br>
     </p>`
 }
     
