@@ -70,7 +70,7 @@ var Urls = {
    Place : Uttarahali,BANGALORE.<br>
    State: Karnataka.<br><br>
   <article id="Experience">
-   <h4>My experience</h4>: <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
+   <h4>My experience:</h4> <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
      </p>
      <p>
         Here we were divited into twenty teams.My team name is 'IOTENS'.I was a team leader and a software engineer for
