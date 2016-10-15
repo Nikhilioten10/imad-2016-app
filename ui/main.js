@@ -76,6 +76,60 @@ button3.onclick = function(){
     
 };
 
+var button4 = document.getElementById('a3');
+button4.onclick = function(){
+    
+    var Request = new XMLHttpRequest();
+    
+    Request.onreadystatechange = function(){
+        
+        if(Request.readyState == XMLHttpRequest.DONE)
+        {
+            if(Request.status == 200)
+            {
+                var info = Request.responseText;
+            
+                var container = document.getElementById('main-text');
+                container.innerHTML = info;
+            }
+        }
+        
+    };
+    
+ Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/Internships",true);
+ Request.send(null);
+
+};
+
+var button5 = document.getElementById('a4');
+button5.onclick = function(){
+    
+    var Request = new XMLHttpRequest();
+    
+    Request.onreadystatechange = function(){
+        
+        if(Request.readyState == XMLHttpRequest.DONE)
+        {
+            if(Request.status == 200)
+            {
+                var info = Request.responseText;
+            
+                var container = document.getElementById('main-text');
+                container.innerHTML = info;
+            }
+        }
+        
+    };
+    
+ Request.open('GET',"http://nikhilioten10.imad.hasura-app.io/Contact",true);
+ Request.send(null);
+
+    
+};
+
+
+
+
 
 var sub_button = document.getElementById('submit_btn');
 sub_button.onclick = function(){
