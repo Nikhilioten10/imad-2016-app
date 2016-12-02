@@ -10,20 +10,20 @@ var Urls = {
     date: 'DATE OF BIRTH: May 23, 1997.',
     content: 
     `<p>
-        In this Mordern world as new technology influences human life for every 86400 seconds, I am very much adaptive
+        In this Mordern world as new technology influences human life for every 86400 seconds, I am very much adaptive to
         such technologies ,learning them as quickly as possible to be along with technology in the field of
         information technology which results me to become a quality professional.
 
 	</p>
 	<p>
-	   The Technologies that i am interested are:
+	   The Technologies that I am interested are:
 	   <ul>
 	    <li>Big Data Analytics</li>
 	    <li>Internet of Things</li>
 	    <li>MEAN Stack web development</li>
 	    <li>Complete java</li>
 	    <li>Oracle database management</li>
-	    <li>Data Sceince</li>
+	    <li>Data Science</li>
 	   </ul>
    </p>
    <p>
@@ -50,7 +50,7 @@ var Urls = {
 	   <h4>Professional Skills</h4>
 	   <ul>
 	   <li>Being able to Communicate Well.</li>
-	   <li>Being able to Volunteer for Organisations likw IEEE, CSI.</li>
+	   <li>Being able to Volunteer for Organisations like IEEE, CSI.</li>
 	   <li>Being adaptive in nature.</li>
 	   <li>Being able to mingle with new people as quickly.</li>
 	   <li>I am a Learner, Motivator, Orator, Dominator and a Special entity in my working environment.</li>
@@ -74,7 +74,7 @@ var Urls = {
    <p>This Internship have lime lighted my self how to grow as a leader, learner and motivator in my professioanl career. This was a virtual internship conducted in an engineering college inheriting the industry environment to be able to understand requirements of IT industries.
      </p>
      <p>
-        Here we were divited into twenty teams.My team name is 'IOTENS'.I was a team leader and a software engineer for
+        Here we were divided into twenty teams.My team name is 'IOTENS'.I was a team leader and a software engineer for
         my team. We united as a team has done a project on Home Automation in IOT which is SMAGMON - Smart Garden Monitor
      
      </p>
