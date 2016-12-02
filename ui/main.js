@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-var button = document.getElementById('counter');
+/*var button = document.getElementById('counter');
 
 button.onclick =  function(){
     
@@ -21,7 +21,7 @@ button.onclick =  function(){
     request.open('GET',"http://nikhilioten10.imad.hasura-app.io/counter",true);
     request.send(null);
  
-};
+};*/
 
 
 var button2 = document.getElementById('a1');
