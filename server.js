@@ -27,7 +27,7 @@ var Urls = {
 	   </ul>
    </p>
    <p>
-   I am the member of professional organisations like IEEE, CSI where i spent my time in building good netorking with researchers, working professionals, tech enthusiasts for prosperity in my career.
+   I am the member of professional organisations like IEEE, CSI where I spent my time in building good netorking with researchers, working professionals, tech enthusiasts for prosperity in my career.
    </p>`
 },
 
