@@ -51,7 +51,7 @@ var Urls = {
 	   <ul>
 	   <li>Being able to Communicate Well.</li>
 	   <li>Being able to Volunteer for Organisations like IEEE, CSI.</li>
-	   <li>Being adaptive in nature.</li>
+	   <li>Being adaptive to technology.</li>
 	   <li>Being able to mingle with new people as quickly.</li>
 	   <li>I am a Learner, Motivator, Orator, Dominator and a Special entity in my working environment.</li>
 	   </ul>
