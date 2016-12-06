@@ -10,7 +10,9 @@ h3{
      color: white;
  
 }
- 
+ p{
+     text-align: justify;
+ }
 header{
     
     background-color:#008CBA; /*blue*/
