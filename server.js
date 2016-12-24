@@ -1,8 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var pool = require('pg').pool;
-var config = {
+/*var pool = require('pg').pool;*/
+/*var config = {
   
   host:'db.imad.hausra-app.io',
   user: 'nikhilioten10',
@@ -10,7 +10,7 @@ var config = {
   database: 'nikhilioten10',
   port: 'localhost:5432'
  
-};
+};*/
 var app = express();
 app.use(morgan('combined'));
 
@@ -137,7 +137,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var pool = new pool(config);
+/*var pool = new pool(config);
 app.get('/test-db',function(req,res){
     
     pool.query('SELECT * FROM test',function(err,result){
@@ -148,7 +148,7 @@ app.get('/test-db',function(req,res){
             res.send(JSON.Stringfy(result));
         }
     });
-});
+});*/
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
