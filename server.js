@@ -148,7 +148,7 @@ app.get('/test-db',function(req,res){
             res.send(JSON.Stringfy(result));
         }
     });
-})
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
