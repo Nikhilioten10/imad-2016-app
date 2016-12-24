@@ -4,11 +4,12 @@ var path = require('path');
 var pool = require('pg').pool;
 var config = {
   
-  user: 'nikhilioten10',
-  database: 'nikhilioten10',
   host:'db.imad.hausra-app.io',
-  port: '5432',
-  password: process.env.DB_PASSWORD
+  user: 'nikhilioten10',
+  password: process.env.DB_PASSWORD,
+  database: 'nikhilioten10',
+  port: 'localhost:5432'
+ 
 };
 var app = express();
 app.use(morgan('combined'));
