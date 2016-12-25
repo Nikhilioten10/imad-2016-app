@@ -167,7 +167,7 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 app.get('/:urlName', function (req, res) {
     var urlName = req.params.urlName;
    
-    if(urlName == 'test-db'){
+    if(urlName == 'test'){
         
         
      var pool = new Pool(config);
