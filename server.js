@@ -1,7 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var pool = require('pg').Pool;
+var Pool = require('pg').Pool;
 var config = {
   
   host:'db.imad.hausra-app.io',
@@ -138,7 +138,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var pool = new Pool();
+var pool = new Pool(config);
 app.get('/test-db',function(req,res){
     
     pool1.query('SELECT * FROM test',function(err,result){
