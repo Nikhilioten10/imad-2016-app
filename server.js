@@ -6,7 +6,7 @@ var config = {
   
   host:'db.imad.hausra-app.io',
   user: 'nikhilioten10',
-  password: process.env.DB_PASSWORD,
+  password: 'db-nikhilioten10-70009',
   database: 'nikhilioten10',
   port: 'localhost:5432'
  
