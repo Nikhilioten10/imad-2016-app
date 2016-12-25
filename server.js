@@ -145,7 +145,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/test-db',);
+/*app.get('/test-db',);*/
 
 
 var counter = 0;
