@@ -138,7 +138,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var pool1 = new Pool(config);
+var pool = new Pool();
 app.get('/test-db',function(req,res){
     
     pool1.query('SELECT * FROM test',function(err,result){
