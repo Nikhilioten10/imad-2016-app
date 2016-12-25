@@ -1,8 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-/*var pool = require('pg').pool;*/
-/*var config = {
+var pool = require('pg').pool;
+var config = {
   
   host:'db.imad.hausra-app.io',
   user: 'nikhilioten10',
@@ -10,7 +10,8 @@ var path = require('path');
   database: 'nikhilioten10',
   port: 'localhost:5432'
  
-};*/
+};
+
 var app = express();
 app.use(morgan('combined'));
 
