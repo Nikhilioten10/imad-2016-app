@@ -138,7 +138,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-/*var pool = new pool(config);
+var pool = new pool(config);
 app.get('/test-db',function(req,res){
     
     pool.query('SELECT * FROM test',function(err,result){
@@ -149,7 +149,7 @@ app.get('/test-db',function(req,res){
             res.send(JSON.Stringfy(result));
         }
     });
-});*/
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
