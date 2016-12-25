@@ -159,13 +159,6 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 });
 
 
-
-
-app.get('/:urlName', function (req, res) {
-    var urlName = req.params.urlName;
-  res.send(createTemplate(Urls[urlName]));
-});
-
 var pool = new Pool(config);
 app.get('/db',function(req,res){
     
@@ -178,6 +171,13 @@ app.get('/db',function(req,res){
         }
     });
 });
+
+app.get('/:urlName', function (req, res) {
+    var urlName = req.params.urlName;
+  res.send(createTemplate(Urls[urlName]));
+});
+
+
 
 
 app.get('/ui/bBMGRPFn.jpg', function (req, res) {
