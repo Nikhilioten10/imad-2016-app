@@ -166,9 +166,11 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 app.get('/:urlName', function (req, res) {
     var urlName = req.params.urlName;
-    var pool = new Pool(config);
-    if(urlName == 'test-db',function(req,res){
-    
+   
+    if(urlName == 'test-db'){
+        
+        
+     var pool = new Pool(config);
     pool.query("SELECT * FROM 'test'",function(err,result){
         
         if(err){
@@ -179,7 +181,8 @@ app.get('/:urlName', function (req, res) {
     });
 
         
-    }){}
+    }
+    
     else{
     
     res.send(createTemplate(Urls[urlName]));
