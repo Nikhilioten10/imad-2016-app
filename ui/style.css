@@ -13,10 +13,11 @@ h3{
  p{
      text-align: justify;
  }
-header{
+
+/*header{
     
-    background-color:#008CBA; /*blue*/
-}
+    background-color:#008CBA;
+} */
 .links{
     
  padding-left:700px;
