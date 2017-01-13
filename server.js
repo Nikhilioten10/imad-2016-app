@@ -145,7 +145,18 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-/*app.get('/test-db',);*/
+app.get('/test/database',function(req,res){
+     var pool = new Pool(config);
+    pool.query("SELECT * FROM 'test'",function(err,result){
+        
+        if(err){
+            res.status(500).send(err.toString());
+        }else{
+            res.send(JSON.stringify(result));
+        }
+    });
+    
+});
 
 
 var counter = 0;
@@ -166,27 +177,8 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 app.get('/:urlName', function (req, res) {
     var urlName = req.params.urlName;
-   
-    if(urlName == 'test'){
-        
-        
-     var pool = new Pool(config);
-    pool.query("SELECT * FROM 'test'",function(err,result){
-        
-        if(err){
-            res.status(500).send(err.toString());
-        }else{
-            res.send(JSON.stringify(result));
-        }
-    });
-
-        
-    }
-    
-    else{
     
     res.send(createTemplate(Urls[urlName]));
-    }
 });
 
 
