@@ -145,7 +145,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/test/database',function(req,res){
+/*app.get('/test/database',function(req,res){
      var pool = new Pool(config);
     pool.query("SELECT * FROM 'test'",function(err,result){
         
@@ -156,7 +156,7 @@ app.get('/test/database',function(req,res){
         }
     });
     
-});
+});*/
 
 
 var counter = 0;
