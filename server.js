@@ -1,16 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var Pool = require('pg').Pool;
-var config = {
-  
-  host:'db.imad.hausra-app.io',
-  user: 'nikhilioten10',
-  password: 'db-nikhilioten10-70009',
-  database: 'nikhilioten10',
-  port: 'localhost:5432'
- 
-};
+
 
 var app = express();
 app.use(morgan('combined'));
@@ -145,18 +136,6 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-/*app.get('/test/database',function(req,res){
-     var pool = new Pool(config);
-    pool.query("SELECT * FROM 'test'",function(err,result){
-        
-        if(err){
-            res.status(500).send(err.toString());
-        }else{
-            res.send(JSON.stringify(result));
-        }
-    });
-    
-});*/
 
 
 var counter = 0;
@@ -177,7 +156,6 @@ app.get('/submit-name', function (req, res) { //url: submit-name?name=xxxx
 
 app.get('/:urlName', function (req, res) {
     var urlName = req.params.urlName;
-    
     res.send(createTemplate(Urls[urlName]));
 });
 
@@ -185,7 +163,6 @@ app.get('/:urlName', function (req, res) {
 
 
 app.get('/ui/bBMGRPFn.jpg', function (req, res) {
-    var imageName = req.params.imageName;
   res.sendFile(path.join(__dirname,'ui', 'bBMGRPFn.jpg'));
 });
 
